@@ -1,16 +1,24 @@
 body {
     background-color: #f5ffff;
-    margin: 100px;
+    margin: 50px 200px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
 }
 
 li {
     list-style: none;
     display: inline;
     /* border-right: 3px solid black; */
-    font-size: 250%;
+    font-size: 150%;
     font-weight: bold;
-    
+}
+
+a:hover {
+    color: #F1A01D;
 }
 
 
@@ -27,23 +35,32 @@ li {
 #intro {
     padding: 50px;
     background-color: #ffffff;
-    border: 5px solid black;
+    border: 5px solid #000000;
     border-radius: 20px;
-    box-shadow: 15px 15px black;
+    box-shadow: 15px 15px #000000;
     width: 60%;
     margin: auto;
 }
 
-#my-work {
+#my-work, #my-skills{
     padding: 0px;
     background-color: #ffffff;
-    border: 5px solid black;
+    border: 5px solid #000000;
     border-radius: 20px;
-    box-shadow: 15px 15px black;
+    box-shadow: 15px 15px #000000;
+}
+
+#my-work img {
+    width: 40%;
+}
+
+#img-container {
+    border: 2px solid #000000;
 }
 
 #title {
     background-color: #F1A01D;
-    padding: 20px;
+    color: #ffffff;
+    padding: 1px 15px;
     border-radius: 15px 15px 0px 0px;
 }
