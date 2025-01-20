@@ -1,7 +1,10 @@
 body {
     background-color: #f5ffff;
-    margin: 50px 200px;
+    margin: auto;
+    margin-top: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    line-height: 1.5;
 }
 
 a {
@@ -21,6 +24,15 @@ a:hover {
     color: #F1A01D;
 }
 
+.corner {
+    left: -45px;
+    top: -10px;
+    position: absolute;
+    rotate: -45deg;
+    background-color: #F1A01D;
+    width: 120px;
+    height: 40px;
+}
 
 #menu-bar {
     padding: 10px;
@@ -33,34 +45,56 @@ a:hover {
 }
 
 #intro {
-    padding: 50px;
+    position: relative;
     background-color: #ffffff;
     border: 5px solid #000000;
     border-radius: 20px;
     box-shadow: 15px 15px #000000;
     width: 60%;
     margin: auto;
+    overflow: hidden;
 }
 
-#my-work, #my-skills{
+#intro-body {
+    padding: 20px 40px;
+}
+
+.sub-box {
+    display: relative;
     padding: 0px;
     background-color: #ffffff;
     border: 5px solid #000000;
     border-radius: 20px;
     box-shadow: 15px 15px #000000;
+    overflow: hidden;
 }
 
-#my-work img {
+img {
     width: 40%;
+    padding: 15px;
 }
 
-#img-container {
+.img-container {
     border: 2px solid #000000;
 }
 
-#title {
+.title {
     background-color: #F1A01D;
     color: #ffffff;
-    padding: 1px 15px;
+    padding: 10px;
+    margin: 0;
     border-radius: 15px 15px 0px 0px;
+}
+
+.title-body {
+    padding: 20px;
+}
+
+#retro-game {
+    float: right;
+    display: absolute;
+}
+
+#other-game {
+    float: left;
 }
