@@ -89,13 +89,13 @@ img {
     text-align: center;
 }
 
-#slide-buttons {
+#slide-buttons-container {
     display: flex;
     padding: 10px;
     justify-content: center;
 }
 
-#slide-buttons div {
+.slide-buttons {
     background-color: #F1A01D;
     margin: 10px;
     width: 40px;
@@ -113,6 +113,22 @@ img {
 
 .title-body {
     padding: 20px;
+}
+
+#project-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#project-container img {
+    width: 300px;
+    border-radius: 15px;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 60px;
 }
 
 #retro-game {
