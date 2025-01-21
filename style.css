@@ -64,7 +64,6 @@ a:hover {
 }
 
 .sub-box {
-    display: relative;
     padding: 0px;
     background-color: #ffffff;
     border: 5px solid #000000;
@@ -74,12 +73,34 @@ a:hover {
 }
 
 img {
-    width: 40%;
+    height: 300px;
     padding: 15px;
 }
 
-.img-container {
-    border: 2px solid #000000;
+.img-container img {
+    border-radius: 15px;
+    padding: 0;
+}
+
+#slideshow {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+#slide-buttons {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+#slide-buttons div {
+    background-color: #F1A01D;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
 }
 
 .title {
@@ -96,7 +117,7 @@ img {
 
 #retro-game {
     float: right;
-    display: absolute;
+    position: absolute;
 }
 
 #other-game {
