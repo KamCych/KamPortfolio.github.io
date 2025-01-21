@@ -55,8 +55,12 @@ a:hover {
     overflow: hidden;
 }
 
-#intro-body {
-    padding: 20px 40px;
+.intro-title {
+    padding: 0px 50px;
+}
+
+.intro-body {
+    padding: 0px 20px
 }
 
 .sub-box {
@@ -97,4 +101,9 @@ img {
 
 #other-game {
     float: left;
+}
+
+#pic-1 {
+    border-radius: 10px;
+    border: 4px solid black;
 }
