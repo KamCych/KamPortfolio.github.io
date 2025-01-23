@@ -34,6 +34,16 @@ a:hover {
     height: 40px;
 }
 
+.more-about {
+    background-color: #F1A01D;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 10px;
+}
+
 #menu-bar {
     padding: 10px;
     background-color: #ffffff;
@@ -50,7 +60,7 @@ a:hover {
     border: 5px solid #000000;
     border-radius: 20px;
     box-shadow: 15px 15px #000000;
-    width: 60%;
+    width: 70%;
     margin: auto;
     overflow: hidden;
 }
@@ -73,13 +83,14 @@ a:hover {
 }
 
 img {
-    height: 300px;
-    padding: 15px;
+    /* height: 300px;
+    padding: 15px; */
 }
 
 .img-container img {
     border-radius: 15px;
     padding: 0;
+    height: 400px;
 }
 
 #slideshow {
@@ -123,21 +134,16 @@ img {
     text-align: center;
 }
 
+#project-container div {
+    width: 300px;
+}
+
 #project-container img {
     width: 300px;
+    height: 300px;
     border-radius: 15px;
     padding: 0;
     margin-top: 0px;
-    margin-bottom: 60px;
-}
-
-#retro-game {
-    float: right;
-    position: absolute;
-}
-
-#other-game {
-    float: left;
 }
 
 #pic-1 {
@@ -156,4 +162,25 @@ img {
 
 #controls {
     margin: 10px auto;
+}
+
+#my-games {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#my-games h2 {
+    display: inline-block;
+    width: 50%;
+}
+
+#my-games img {
+    width: 40%;
+    padding: 15px;
+    display: inline-block;
+}
+
+#img-and-text h2 {
+    display: flex;
+    flex-direction: row;
 }
