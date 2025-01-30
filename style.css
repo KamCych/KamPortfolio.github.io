@@ -184,3 +184,10 @@ img {
     display: flex;
     flex-direction: row;
 }
+
+#resume-pic {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    width: 80%;
+}
