@@ -37,11 +37,17 @@ a:hover {
 .more-about {
     background-color: #F1A01D;
     position: absolute;
-    width: 100px;
+    width: 90px;
     height: 50px;
     right: -10px;
-    bottom: -10px;
+    bottom: -6px;
     border-radius: 10px;
+    text-align: center;
+}
+
+#more {
+    color:#ffffff;
+    font-weight: bold;
 }
 
 #menu-bar {
@@ -190,4 +196,8 @@ img {
     margin: auto;
     border: 2px solid black;
     width: 80%;
+}
+
+.proj-img {
+    border: solid black 5px;
 }
