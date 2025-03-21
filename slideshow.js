@@ -8,18 +8,25 @@ const slide_buttons = document.getElementsByClassName("slide-buttons");
 
 let current = 1;
 
+// for (let k = 0; k < 3; k++) {
+//     slideshow[k].style.height = "300px";
+//     slideshow[k].style.margin = "auto";
+// }
+
+
+
 slideshow[1].style.display = "none";
 slideshow[2].style.display = "none";
-slide_buttons[0].style.backgroundColor = "#FF0000"
+//slide_buttons[0].style.backgroundColor = "#FF0000"
 function update_slide() {
 
     for (let i = 0; i < 3; i++) {
         slideshow[i].style.display = "none";
-        slide_buttons[i].style.backgroundColor = "#F1A01D";
+        //slide_buttons[i].style.backgroundColor = "#F1A01D";
     }
     
     slideshow[current].style.display = "block";
-    slide_buttons[current].style.backgroundColor = "#FF0000";
+    //slide_buttons[current].style.backgroundColor = "#FF0000";
 
     current += 1
 

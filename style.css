@@ -22,6 +22,7 @@ a {
 
 a:hover {
     color: #F1A01D;
+    /* text-shadow: 1px 1px black; */
 }
 
 .corner {
@@ -37,12 +38,20 @@ a:hover {
 .more-about {
     background-color: #F1A01D;
     position: absolute;
-    width: 90px;
-    height: 50px;
-    right: -10px;
-    bottom: -6px;
-    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 10px 0px;
     text-align: center;
+    line-height: 0px;
+    padding: 10px;
+}
+
+.more-about:hover {
+    border: dotted 5px black; 
+    width: 45px;
+    height: 25px;
 }
 
 #more {
@@ -200,4 +209,9 @@ img {
 
 .proj-img {
     border: solid black 5px;
+}
+
+.img-container {
+    height: 300px;
+    margin: auto;
 }
