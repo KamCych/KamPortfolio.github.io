@@ -1,0 +1,4 @@
+- rethink ABOUT page
+- add linkedin to CONTACT page
+- make sure all pages have the same NAV BAR
+- get VIDEO and IMGS for project pages
