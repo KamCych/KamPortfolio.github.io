@@ -180,24 +180,35 @@ img {
 }
 
 #my-games {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
 }
 
 #my-games h2 {
-    display: inline-block;
-    width: 50%;
+    /* display: inline-block; */
+    /* top: 0; */
+    position: relative;
+    width: 90%;
 }
 
 #my-games img {
-    width: 40%;
-    padding: 15px;
+    width: 90%;
+    padding: 10px;
     display: inline-block;
 }
 
-#img-and-text h2 {
-    display: flex;
-    flex-direction: row;
+.img-and-text {
+    top: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img-and-text h2 {
+    margin: 25px;
+}
+
+
+.img-and-text img {
+    margin: 15px;
 }
 
 #resume-pic {
