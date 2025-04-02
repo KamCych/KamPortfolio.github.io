@@ -97,11 +97,6 @@ a:hover {
     overflow: hidden;
 }
 
-img {
-    /* height: 300px;
-    padding: 15px; */
-}
-
 .img-container img {
     border-radius: 15px;
     padding: 0;
@@ -139,6 +134,13 @@ img {
 
 .title-body {
     padding: 20px;
+}
+
+#first-info img {
+    width: 60%;
+    padding-top: 10px;
+    margin: auto;
+    display: block;
 }
 
 #project-container {
@@ -216,7 +218,24 @@ img {
     .img-and-text {
         display: flex;
         flex-wrap: wrap;
+        /* flex-direction: column-reverse; */
     }
+
+    #first-img-text {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    #menu-bar {
+        flex-direction: column;
+    }
+
+    body {
+        padding-right: 15px;
+    }
+
+
 }
 
 #resume-pic {
