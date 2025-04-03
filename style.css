@@ -136,6 +136,12 @@ a:hover {
     padding: 20px;
 }
 
+.title-body video {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
 #first-info img {
     width: 60%;
     padding-top: 10px;
@@ -235,6 +241,16 @@ a:hover {
         padding-right: 15px;
     }
 
+    #project-container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .title-body video {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
 
 }
 
