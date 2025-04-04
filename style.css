@@ -220,6 +220,27 @@ a:hover {
     margin: 15px;
 }
 
+
+
+#resume-pic {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    width: 80%;
+}
+
+.proj-img {
+    border: solid black 5px;
+}
+
+.img-container {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .img-and-text {
         display: flex;
@@ -252,20 +273,7 @@ a:hover {
         margin: auto;
     }
 
-}
-
-#resume-pic {
-    display: block;
-    margin: auto;
-    border: 2px solid black;
-    width: 80%;
-}
-
-.proj-img {
-    border: solid black 5px;
-}
-
-.img-container {
-    height: 300px;
-    margin: auto;
+    .img-container {
+        width: 100%;
+    }
 }
