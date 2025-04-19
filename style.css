@@ -234,7 +234,8 @@ a:hover {
 }
 
 .img-container {
-    width: 50%;
+    width: 350px;
+    height: 350px;
     margin: auto;
     display: block;
 }
