@@ -222,11 +222,12 @@ a:hover {
 
 
 
-#resume-pic {
+.resume-pic {
     display: block;
     margin: auto;
     border: 2px solid black;
     width: 80%;
+    margin-bottom: 10px;
 }
 
 .proj-img {
